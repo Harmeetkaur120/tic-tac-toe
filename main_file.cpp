@@ -3,7 +3,7 @@
 
 class TicTacToe {
 private:
-    char arr[3][3] = {{'E', 'E', 'E'}, {'E', 'E', 'E'}, {'E', 'E', 'E'}};
+    char arr[3][3] = {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}};
     int x, y, ctr = 0;
 
 public:
